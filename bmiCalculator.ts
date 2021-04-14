@@ -1,5 +1,6 @@
 const calculateBmi = (a: number, b: number, printText: string) => {
-  console.log(printText,  a / b * 703);
+  const heightInMeter = a / 100
+  console.log(printText,  (b / (heightInMeter*heightInMeter)));
 }
 
 const a: number = Number(process.argv[2])
