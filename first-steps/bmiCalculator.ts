@@ -1,6 +1,6 @@
 export const calculateBmi = (a: number, b: number) : string => {
-  const heightInMeter = a / 100
-  const bmi = b / (heightInMeter*heightInMeter)
+  const heightInMeter = a / 100;
+  const bmi = b / (heightInMeter*heightInMeter);
   
   if (bmi < 18.5) {
     console.log("Underweight");
@@ -22,5 +22,5 @@ export const calculateBmi = (a: number, b: number) : string => {
   return `Oops something went wrong, unable to calculate bmi`;
 
 
-}
+};
  
